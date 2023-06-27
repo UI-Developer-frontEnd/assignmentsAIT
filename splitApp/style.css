@@ -1,0 +1,67 @@
+body{
+    background-image: url(/splitApp/pexels-karolina-grabowska-5900132.jpg);
+    background-size: cover;
+}
+.container{
+    border: 2px solid black;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #242B2E;
+    opacity: 90%;
+    color: #ffff;
+}
+.sub-container div{
+    margin-bottom: 10px;
+}
+.sub-container input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: .5px solid rgba(0, 0, 0, 0.237);
+}
+.sub-container input:focus{
+    border: 1.5px solid rgb(236, 5, 5);
+}
+.button-container{
+    display: flex;
+    justify-content:center;
+    margin:0px 20px;
+}
+.button-container button{
+    padding: 10px 90px;
+    margin-top: 20px;
+    background-color: #f4fbfe;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+}
+.result{
+   display: flex;
+   gap: 8px;
+}
+.amountErr{
+    color: rgb(236, 4, 4);
+    font-size: 12px;
+    text-align: left;
+    /* background-color: #d20404d2; */
+    width: fit-content;
+}
+.input2Err{
+    border-bottom: 2.5px solid red;
+    border-radius: 8px;
+    box-shadow: yellow;
+}
+.input2Corr{
+    border-bottom: 2.5px solid #1FAA59;
+    border-radius: 8px;
+}
+.heading h1{
+    color: #ffffff;
+}
+.inpres{
+    color: #fff;
+}

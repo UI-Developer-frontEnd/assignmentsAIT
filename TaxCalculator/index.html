@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="/TaxCalculator/style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="subContainer">
+            <div class="heading">
+                <h2>Employee Tax Calculator</h2>
+            </div>
+            <div class="inpFields">
+                <input type="text" id="userName" placeholder="Enther your Name">
+                <input type="text" id="userSal" placeholder="Enter your salary">
+            </div>
+            <div class="btn">
+                <button onclick="taxCalculator()">Calculate salary</button>
+            </div>
+            <div class="indBreakup">
+                <div class="tenPercent">
+                <label for="">Tax decucted for 10%</label><br>
+                <input type="text" disabled id="tenPercent"> 
+                </div>
+                 <div class="twntyPercent">
+                <label for="">Tax decucted for 20%</label><br>
+                <input type="text" disabled id="twentyPercent">
+                </div>
+            </div>
+            <div class="totalTax">
+                <label for="">Total Tax decucted</label><br>
+                <input type="text" disabled id="totTax">
+                <p id="noTax"></p>
+            </div>
+        </div>
+    </div>
+    <script src="/TaxCalculator/app.js"></script>
+</body>
+</html>
