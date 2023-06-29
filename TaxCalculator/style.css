@@ -5,7 +5,7 @@
     margin-top: 10%;
 }
 body{
-    background-color: #758283;
+    background-color: #ffffff;
     font-family: Montserrat;
 }
 .heading h2{
@@ -51,4 +51,29 @@ button{
     letter-spacing: 1.5px;
     cursor: pointer;
 }
-
+.bun .thme{
+   position: relative;
+   left: 6%;
+   top: -25px;
+   margin-bottom: 6px;
+}
+.bun{
+    display: flex;
+    justify-content: flex-end;
+}
+.bun .p1,.p2{
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 4px 18px;
+    /* border-radius: 1px solid black; */
+}
+.bun .p2{
+    background-color: black;
+    color: #ffffff;
+}
+.dark-mode{
+    background-color: black;
+}
+.lite-mode{
+    background-color: #ffffff;
+}

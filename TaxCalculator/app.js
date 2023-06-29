@@ -22,3 +22,9 @@ function taxCalculator(name,salary){
         document.getElementById("totTax").value = totalTax
     }
 }
+function dark() {
+    document.getElementById("boddy").classList.add("dark-mode")
+}
+function lite() {
+    document.getElementById("boddy").classList.add("lite-mode")
+}
