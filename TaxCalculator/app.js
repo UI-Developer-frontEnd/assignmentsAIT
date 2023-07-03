@@ -1,4 +1,4 @@
-function taxCalculator(name,salary){
+function taxCalculator(){
     let taxPayerName = document.getElementById("userName").value;
     let taxPayerSalary = document.getElementById("userSal").value;
     
