@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegEx</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>LOGIN</h2>
+        <form action="#">
+            <input type="text" id="userName" onblur="validUserName()" placeholder="Enter your name">
+            <p id="uNameErr"></p>
+            <input type="email" id="userMail" onblur="validEmail()" placeholder="Enter you Email">
+            <p id="uMailErr"></p>
+            <input type="password" onblur="validPassword()" id="userPassword" placeholder="Enter your password">
+            <p id="uPassErr"></p>
+            <input type="text" id="userMob" onblur="validMob()" placeholder="Enter you mobile number">
+            <p id="uMobErr"></p>
+            <div class="subBtn">
+            <button id="btn">Submit</button>
+        </div>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

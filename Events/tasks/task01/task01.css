@@ -36,6 +36,7 @@ button{
 .inputError{
     color: red;
     text-align: left;
+    margin-top: 4px;
 }
 .inputFieldsWrong{
     border-bottom: 2px solid red;
